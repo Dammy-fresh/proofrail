@@ -44,3 +44,4 @@ npm run type-check
 npm run test
 npm run build
 ```
+git push origin main
