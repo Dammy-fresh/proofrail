@@ -1,0 +1,29 @@
+{
+  "name": "proofrail",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint",
+    "type-check": "tsc --noEmit",
+    "test": "node --test --experimental-strip-types src/lib/address.test.ts src/lib/api-input.test.ts src/lib/analysis/identity.test.ts src/lib/analysis/ownership-proxy.test.ts src/lib/analysis/permissions.test.ts src/lib/explorer/blockscout.test.ts src/lib/report-url.test.ts"
+  },
+  "dependencies": {
+    "next": "16.4.2",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "viem": "^2.57.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.2",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
